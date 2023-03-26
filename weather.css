@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhZGllbnQlMjBibHVlfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    text-align: center;
+    justify-content: center;
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+.Mainform{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#header .title{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ffffff89;
+    background-color: #30548e;
+}
+#top{
+    margin-left: 5% ;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    float: left;
+}
+#bottom{
+    margin-left: 5% ;  
+    width: 90%;
+    height: 30%;
+    display: flex;
+    float: left;
+}
+.title{
+    display: flex;
+    float: left;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.search{
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    border-radius: 20px;
+    border: 1px solid #2fbec6;
+}
+.search img{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.search input{
+    margin-left: 10px;
+    font-size: 17px;
+    width: 87%;
+    border: 0px ;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    background-color: #30548e;
+}
+/* Trên */
+.current{
+    width: 650px;
+    height: 395px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 2px #7f7f7f;
+    border-left: 2px solid #fff;
+    border-top: 1px solid #ffffff45;
+    background: rgba(174,228,254,0);
+}
+.current:hover{
+    width: 655px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    background: rgba(174,228,254,0.1
+
+);
+}
+.today{
+    margin: 15px;
+    width: 550px;
+    height: 190px;
+    border-radius: 15px;
+    box-shadow: 1px 2px #4d4c4c;
+    border-left: 2px solid #fff;
+    border-top: 1px solid #ffffff45;
+    background: rgba(174,228,254,0
+);
+}
+.today:hover{
+    margin: 10px;
+    width: 555px;
+    height: 195px;
+    border-radius: 15px;
+    background: rgba(174,228,254,0.1
+
+);
+}
+.tomorrow{
+    margin: 15px;
+    width: 550px;
+    height: 190px;
+    border-radius: 15px;
+    box-shadow: 1px 2px #4d4c4c;
+    border-left: 2px solid #fff;
+    border-top: 1px solid #ffffff45;
+    background: rgba(174,228,254,0);
+}
+.tomorrow:hover{
+    margin: 10px;
+    width: 555px;
+    height: 195px;
+    border-radius: 15px;
+    background: rgba(174,228,254,0.1
+
+);
+}
+.Day form{
+    display: flex;
+    float: left;
+}
+/* Giữa */
+
+.week div{
+    margin: 15px;
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 1px 2px #7f7f7f;
+    border-left: 2px solid #fff;
+    border-top: 1px solid #ffffff45;
+    background: rgba(174,228,254,0
+);
+    float: left;
+
+}
+.week div:hover{
+    margin: 13px;
+    width: 152px;
+    height: 205px;
+    border-radius: 15px;
+    background: rgba(174,228,254,0.1);
+    float: left;
+}
+.Temperature{
+    position: relative;
+    left: -50px;
+}
+.Temperature img{
+    position: absolute;
+    top:150px;
+    left: 120px;
+}
+
+.Temperature h1{
+    position: absolute;
+    font-size: 30px;
+    top:250px;
+    left: 120px;
+
+    
+}
+.status{
+    position: relative;
+    top:50px;
+    left: 100px;
+}
+.icon
+{
+    margin-top: 20pX;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.day-status{
+    position: relative;
+    font-size: 50px;
+    top: 50px;
+    left: -150px;
+}
+.week img{
+    margin-top: 20px;
+}
+h1{
+    
+    color: #fff;
+}
+.Day h1{
+    margin-top: 30px;
+}
+h2{
+    
+    color: #fff;
+}
+.week h2{
+    margin-top: 30px;
+    color: #fff;
+}
+.week h3{
+    margin-top: 30px;
+    color: #fff;
+}
+p{
+    position: relative;
+    margin-left: 250px;
+    font-size: 20px;
+    color: #fff;
+}
